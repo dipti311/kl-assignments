@@ -1,0 +1,15 @@
+version control system
+changing code
+storing code
+sharing code
+keeps track of change in code
+rollback
+snapshot
+real time code  changes
+git push
+git commit
+git status
+git add for staging
+git branches
+git pull
+git upstream --origin
