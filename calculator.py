@@ -19,7 +19,7 @@
 
 '''
 class Calculator:
-    """A basic calculator class that performs arithmetic operations"""
+    """A basic calculator class that performs arithmetic operations by using switch"""
 
     def __init__(self):
         self.input_1 = None
@@ -68,20 +68,14 @@ class Calculator:
             self.get_input()
 
         return operation()
-# Create a new calculator instance
+# Created a new calculator object
 calculator = Calculator()
 
-# Prompt the user to enter two numbers
+# to take the inputs from user by get_input function
 calculator.get_input()
 
 # Perform a calculation
 result = calculator.calculate()
 print(result)
-
-
-
-
-
-
 
 
