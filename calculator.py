@@ -71,11 +71,12 @@ class Calculator:
 # Created a new calculator object
 calculator = Calculator()
 
-# to take the inputs from user by get_input function
+# To take the inputs from user by get_input function
 calculator.get_input()
 
 # Perform a calculation
 result = calculator.calculate()
+# Prints the result
 print(result)
 
 
