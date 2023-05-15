@@ -1,5 +1,6 @@
 import pymongo  
-mongoURI =  "mongodb://intern_23:intern%40123@192.168.0.220:2717/interns_b2_23"
+from scripts.config import DBConf
+mongoURI =DBConf.MONGO_URI
 client=pymongo.MongoClient(mongoURI)
 db=client.interns_b2_23
 collection = db["dipti_db"]
