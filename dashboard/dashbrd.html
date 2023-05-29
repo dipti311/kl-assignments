@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Bar Example</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <style>
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        ul.navbar1 {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: white;
+        }
+        
+
+        ul.navbar li {
+            float: left;
+        }
+        ul.navbar1 li {
+            float: left;
+        }
+
+
+        ul.navbar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        ul.navbar1 li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul.navbar li a:hover {
+            background-color: #111;
+        }
+        ul.navbar1 li a:hover {
+            color:blue;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    
+    <ul class="navbar">
+    <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style="float:right;">Logged in as Dipti Mishra
+    <span class="caret"></span></button>
+    </ul>
+    </div>
+    <ul class="navbar1">
+    <li><a href="dashboard.html" onclick="loadPage('dashboard.html')">Dashboard</a></li>
+    <li><a href="userlist.html" onclick="loadPage('userlist.html')">User List</a></li>
+    <li><a href="userdetails.html" onclick="loadPage('userdetails.html')">User Details</a></li>
+    <li><a href="usersetup.html" onclick="loadPage('usersetup.html')">User Setup</a></li>
+
+    </ul>
+</body>
+</html>
